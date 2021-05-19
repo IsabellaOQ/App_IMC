@@ -3,8 +3,9 @@ Aplicativo feito no Android Studio, utilizando a linguagem Kotlin, durante perí
 O objetivo principal é o cálculo de IMC e uma tela falando sobre mim.
 Enjoy it :)
 
-<img src="app/src/main/res/drawable/Main.jpeg" alt="My cool logo" width="100px" heigth="200px" display="flex"/>
-<img src="app/src/main/res/drawable/calculo.jpeg" alt="My cool logo" width="100px" heigth="200px" display="flex"/>
-<img src="app/src/main/res/drawable/sobremim.jpeg" alt="My cool logo" width="100px" heigth="200px" display="flex"/>
-
+<div>
+<img src="app/src/main/res/drawable/Main.jpeg" alt="My cool logo" width="100px" heigth="200px"/>
+<img src="app/src/main/res/drawable/calculo.jpeg" alt="My cool logo" width="100px" heigth="200px"/>
+<img src="app/src/main/res/drawable/sobremim.jpeg" alt="My cool logo" width="100px" heigth="200px"/>
+</div>
 # App_IMC
