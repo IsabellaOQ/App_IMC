@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="147dp"
+            android:layout_marginTop="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.125"
+            app:srcCompat="@drawable/saude_logo" />
+
+        <Button
+            android:id="@+id/Calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="10dp"
+            android:text="@string/calcular"
+            android:textSize="18sp"
+            app:backgroundTint="#DC2196F3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/EntradaAltura"
+            app:layout_constraintVertical_bias="0.377" />
+
+        <TextView
+            android:id="@+id/textView_altura"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/altura"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView_peso"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="@+id/textView_peso"
+            app:layout_constraintTop_toBottomOf="@+id/textView_peso" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EntradaPeso"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:hint="@string/informe_peso"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView_peso"
+            android:layout_width="63dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/peso"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EntradaAltura"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:hint="@string/info_altura"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="@+id/EntradaPeso"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/EntradaPeso"
+            app:layout_constraintTop_toBottomOf="@+id/EntradaPeso" />
+
+        <Button
+            android:id="@+id/SobreMim"
+            android:layout_width="121dp"
+            android:layout_height="50dp"
+            android:text="@string/sobre_mim"
+            android:textAlignment="viewStart"
+            app:backgroundTint="#DCF44D65"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.945"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Isabella RM 83588</string>
+    <string name="info_altura" translatable="false">Informar tu altura</string>
+    <string name="calcular" translatable="false">Calcular</string>
+    <string name="altura" translatable="false">Altura</string>
+    <string name="peso" translatable="false">Peso</string>
+    <string name="sobre_mim" translatable="false">Acerca Mí</string>
+    <string name="voltar" translatable="false">Regreso</string>
+    <string name="leitura" translatable="false">- Leer</string>
+    <string name="descricao" translatable="false">\" Porque en los sueños entramos en un mundo enteramente nuestro, déjalo flotar en la nube más alta o sumergirte en el océano más profundo. \" Alvo Dumbledore</string>
+    <string name="hobbies" translatable="false">HOBBIES</string>
+    <string name="m_sica" translatable="false">- Música</string>
+    <string name="games" translatable="false">- Games</string>
+    <string name="potterhead" translatable="false">- Potterhead 🖤</string>
+    <string name="isabella_oliveira" translatable="false">Isabella Oliveira</string>
+    <string name="desc" translatable="false">Apasionada de la tecnología desde pequeña, transformar el mundo en un lugar mejor es un privilegio.</string>
+    <string name="estudante" translatable="false">Estudiante Universitaria</string>
+    <string name="informe_peso" translatable="false">Ingrese su peso en kg</string>
+    <string name="preencher" translatable="false">Llene este campo</string>
+</resources>
